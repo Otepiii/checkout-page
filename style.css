@@ -126,6 +126,15 @@ button {
   float: right;
 }
 
+.button:hover {
+  background-color: rgb(231, 153, 6);
+  cursor: pointer;
+}
+
+.button:active {
+  background-color: orange;
+}
+
 .checkout-container {
   background-color: #f2f2f2;
   padding: 2rem;
@@ -186,6 +195,14 @@ button {
   align-self: baseline;
 }
 
+.item .material-icons:hover {
+  color: #6e6e6e;
+  cursor: pointer;
+}
+.item .material-icons:active {
+  color: #a5a4a4;
+}
+
 .item .material-icons {
   color: #a5a4a4;
 }
@@ -237,6 +254,13 @@ button {
     flex-direction: column;
     width: 90%;
     margin-top: 2rem;
+  }
+
+  .items {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .checkout-field {
