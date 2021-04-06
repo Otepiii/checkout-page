@@ -204,6 +204,10 @@ button {
   color: #a5a4a4;
 }
 
+.total-fee {
+  display: flex;
+}
+
 .item .material-icons {
   color: #a5a4a4;
 }
